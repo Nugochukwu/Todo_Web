@@ -1,4 +1,5 @@
 ## Todo_Web
+ The project entails a simple web app that functions as a to-do list, one that integrates simple CRUD operations
 ## Requirements / Downloads Required
 1 .NetCore
 ```bash
