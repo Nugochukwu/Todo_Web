@@ -15,3 +15,14 @@ $ dotnet run
 $ dotnet tool run dotnet-ef migrations add <MigrationName>
   ## 2. To update the database:
 $ dotnet tool run dotnet-ef database update
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
