@@ -3,26 +3,21 @@ h# Todo_Web
 1 .NetCore
 
 ## Set Up
-$ dotnet tool restore
-$ dotnet restore
+```bash
+dotnet tool restore
+dotnet restore
 dotnet tool run dotnet-ef database update
-
+```
 ## Running the App
-$ dotnet run
-
+```bash
+ dotnet run
+```
 ## Development:
   ## 1. To add a new migration
-$ dotnet tool run dotnet-ef migrations add <MigrationName>
+  ```bash
+ dotnet tool run dotnet-ef migrations add <MigrationName>
+ ```
   ## 2. To update the database:
-$ dotnet tool run dotnet-ef database update
-
-```bash
-# development
- npm run start
-
-# watch mode
- npm run start:dev
-
-# production mode
- npm run start:prod
+ ```bash
+ dotnet tool run dotnet-ef database update
 ```
