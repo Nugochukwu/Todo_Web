@@ -1,7 +1,10 @@
 ## Todo_Web
 ## Requirements / Downloads Required
 1 .NetCore
-
+```bash
+#Version
+8.0.303
+```
 ## Set Up
 ```bash
 dotnet tool restore
