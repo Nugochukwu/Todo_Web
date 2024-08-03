@@ -18,11 +18,11 @@ $ dotnet tool run dotnet-ef database update
 
 ```bash
 # development
-$ npm run start
+ npm run start
 
 # watch mode
-$ npm run start:dev
+ npm run start:dev
 
 # production mode
-$ npm run start:prod
+ npm run start:prod
 ```
