@@ -21,3 +21,8 @@ dotnet tool run dotnet-ef database update
  ```bash
  dotnet tool run dotnet-ef database update
 ```
+## Problem
+Web app is unable to load the web view for the todo list and is giving this error
+```bash
+InvalidOperationException: Unable to resolve service for type 'AspNetCoreTodo.Services.ITodoItemService' while attempting to activate 'AspNetCoreTodo.Controllers.TodoController'.
+```
