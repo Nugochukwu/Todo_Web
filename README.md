@@ -11,7 +11,7 @@ dotnet tool run dotnet-ef database update
 dotnet run
 
 ## Development
-  ##To add a new migration
+  ## To add a new migration
 dotnet tool run dotnet-ef migrations add <MigrationName>
-  ##To update the database:
+  ## To update the database:
 dotnet tool run dotnet-ef database update
