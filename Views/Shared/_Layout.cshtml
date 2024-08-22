@@ -32,6 +32,14 @@
                     <partial name="_LoginPartial" />
                 </div>
             </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                <!-- existing code here -->
+                </ul>
+                @await Html.PartialAsync("_LoginPartial")
+                @await Html.PartialAsync("_AdminActionsPartial")
+            </div>
+
         </nav>
     </header>
     <div class="container">
