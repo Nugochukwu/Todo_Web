@@ -9,10 +9,10 @@ namespace AspNetCoreTodo.Services
     // This class is used by the application to send email for account confirmation and password reset.
     public class EmailSender : IEmailSender
     {
-        private readonly string _smtpServer = "your_smtp_server";
+        private readonly string _smtpServer = "smtp.gmail.com";
         private readonly int _smtpPort = 587; // Or the port number used by your SMTP server
-        private readonly string _smtpUsername = "your_username";
-        private readonly string _smtpPassword = "your_password";
+        private readonly string _smtpUsername = "alfrednwodo1@gmail.com";
+        private readonly string _smtpPassword = "october1998##";
 
         public Task SendEmailAsync(string email, string subject, string message)
         {

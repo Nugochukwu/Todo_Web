@@ -64,6 +64,7 @@ namespace AspNetCoreTodo.Controllers
 
             return RedirectToAction("Index");
         }
+        
 
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> MarkDone(Guid id)
@@ -87,5 +88,6 @@ namespace AspNetCoreTodo.Controllers
 
             return RedirectToAction("Index");
         }
+   
     }
 }

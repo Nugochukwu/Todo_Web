@@ -1,12 +1,3 @@
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.csproj.AssemblyReference.cache
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.AssemblyInfoInputs.cache
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.AssemblyInfo.cs
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.csproj.CoreCompileInputs.cache
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.RazorAssemblyInfo.cache
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.RazorAssemblyInfo.cs
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\appsettings.json
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\AspNetCoreTodo.staticwebassets.runtime.json
@@ -16,7 +7,9 @@ C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCore
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\AspNetCoreTodo.runtimeconfig.json
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\AspNetCoreTodo.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\AspNetCoreTodo.pdb
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\Humanizer.dll
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\MailKit.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -45,6 +38,7 @@ C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCore
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\MimeKit.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\SQLitePCLRaw.core.dll
@@ -179,6 +173,15 @@ C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCore
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.csproj.AssemblyReference.cache
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.AssemblyInfoInputs.cache
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.AssemblyInfo.cs
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.csproj.CoreCompileInputs.cache
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.RazorAssemblyInfo.cache
+C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.RazorAssemblyInfo.cs
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\staticwebassets\msbuild.AspNetCoreTodo.Microsoft.AspNetCore.StaticWebAssets.props
@@ -195,6 +198,3 @@ C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCore
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.pdb
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\AspNetCoreTodo.genruntimeconfig.cache
 C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\net8.0\ref\AspNetCoreTodo.dll
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\MailKit.dll
-C:\Users\UgochukwuNwodo\Documents\Projects_not_git_linked\C#-Practice\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\net8.0\MimeKit.dll

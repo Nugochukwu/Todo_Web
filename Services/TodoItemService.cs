@@ -22,11 +22,12 @@ namespace AspNetCoreTodo.Services
             newItem.Id = Guid.NewGuid();
             newItem.OwnerId = user.Id;
             newItem.IsDone = false;
-            newItem.DueAt = DateTimeOffset.Now.AddDays(3);
+           // newItem.DueAt = DateTimeOffset.Now.AddDays(3);
 
             _context.Items.Add(newItem);
-
+Console.WriteLine($"Saving item: {newItem.Title}, owned by: {newItem.OwnerId}");
             var saveResult = await _context.SaveChangesAsync();
+            Console.WriteLine($"Save result: {saveResult}");
             return saveResult == 1;
         }
 
@@ -50,5 +51,6 @@ namespace AspNetCoreTodo.Services
             var saveResult = await _context.SaveChangesAsync();
             return saveResult == 1; // One entity should have been updated
         }
+   
     }
 }

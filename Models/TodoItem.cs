@@ -5,17 +5,17 @@ namespace AspNetCoreTodo.Models
 {
     public class TodoItem
     {
-        public Guid Id { get; set; }
+         public Guid Id { get; set; }
 
-        [Required]
-        public string OwnerId { get; set; } = string.Empty;
+    // No [Required] here, since we set this programmatically
+     public string OwnerId { get; set; } = "default_owner_id";
 
-        public bool IsDone { get; set; }
+    public bool IsDone { get; set; }
 
-        [Required]
-        [MaxLength(100)]
-        public string Title { get; set; } = string.Empty;
+    [Required]
+    [MaxLength(100)]
+    public string Title { get; set; }
 
-        public DateTimeOffset? DueAt { get; set; }
+    public DateTimeOffset? DueAt { get; set; }
     }
 }
