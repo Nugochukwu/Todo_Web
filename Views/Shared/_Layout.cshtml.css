@@ -11,11 +11,19 @@ a {
   color: #0077cc;
 }
 
-.btn-primary {
+/* Initial button styles */
+.custom-btn {
+  background-color: #007bff;
+  border-color: #007bff;
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  transition: background-color 0.2s ease, border-color 0.2s ease; /* Smooth transition */
 }
+
+.custom-btn:hover {
+  background-color: #00b348;
+  border-color: #004085;
+}
+
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;

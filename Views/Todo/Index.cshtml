@@ -18,21 +18,27 @@
             {
                 <tr>
                     <td>
-<form asp-action="MarkDone" method="POST">
-<input type="checkbox" class="done-checkbox">
-<input type="hidden" name="id" value="@item.Id">
-</form>
-</td>
+                        <form asp-action="MarkDone" method="POST">
+                            <input type="checkbox" class="done-checkbox">
+                            <input type="hidden" name="id" value="@item.Id">
+                        </form>
+                    </td>
 
                     <td>@item.Title</td>
-                    <td>@item.DueAt</td>
+                    <td>
+                        <form asp-action="EditDueDate" method="POST">
+                             <input type="hidden" name="id" value="@item.Id">
+                    <!-- Handle null values and formatting for the date input -->
+                    <input type="date" name="dueDate" value="@(item.DueAt.HasValue ? item.DueAt.Value.ToString("yyyy-MM-dd") : "")"required>
+                    <button type="submit" class="btn btn-primary custom-btn">Save</button>
+                        </form>
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
     <div class="panel-footer add-item-form">
-        <!-- TODO: Add item form -->
+        <!-- Add item form -->
         @await Html.PartialAsync("AddItemPartial", new TodoItem())
-
     </div>
 </div>

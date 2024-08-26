@@ -1,7 +1,12 @@
 ## Todo_Web
  The project entails a simple web app that functions as a to-do list, one that integrates simple CRUD operations
 ## Requirements / Downloads Required
-1 .NetCore
+1 .NetCore/.NET SDK
+Microsoft.AspNetCore.Mvc
+Microsoft.EntityFrameworkCore (using Entity Framework Core for database operations)
+Microsoft.AspNetCore.Razor (for Razor views)
+Microsoft.AspNetCore.Http
+Microsoft.EntityFrameworkCore.Sqlite
 ```bash
 #Version
 8.0.303

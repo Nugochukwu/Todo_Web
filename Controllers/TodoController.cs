@@ -41,7 +41,7 @@ namespace AspNetCoreTodo.Controllers
 
             return View(model);
         }
-
+       
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddItem(TodoItem newItem)
         {
@@ -88,6 +88,28 @@ namespace AspNetCoreTodo.Controllers
 
             return RedirectToAction("Index");
         }
-   
+         [ValidateAntiForgeryToken]
+   public async Task<IActionResult> EditDueDate(Guid id, DateTime dueDate)
+{
+    if (id == Guid.Empty)
+    {
+        return RedirectToAction("Index");
+    }
+
+    var currentUser = await _userManager.GetUserAsync(User);
+    if (currentUser == null)
+    {
+        return RedirectToAction("Index");
+    }
+
+    var successful = await _todoItemService.UpdateDueDateAsync(id, dueDate, currentUser);
+    if (!successful)
+    {
+        return BadRequest("DueDate already Set(Could not update duedate)");
+    }
+
+    return RedirectToAction("Index");
+}
+
     }
 }
