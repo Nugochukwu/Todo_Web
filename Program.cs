@@ -19,7 +19,7 @@ namespace AspNetCoreTodo
 
             // Configure services
             ConfigureServices(builder.Services, builder.Configuration);
-
+            builder.WebHost.UseUrls("http://*:5000");
             var app = builder.Build();
 
             // Seed the database before running the app

@@ -8,21 +8,20 @@
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
-        <!--<a  class="nav-link text-dark" Acount/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>-->
+       
         <div>
             <a class="nav-link text-dark" title="Manage">Hello @User.Identity?.Name!</a>
-        </div>
+        <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Logout</a>
+        </div
         
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" href="/Account/Login">Logout</a>
+        
     </li>
 }
 else
 {
     <li class="nav-item">
         <a class="nav-link text-dark" href="/Account/Register">Register</a>
-
+    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Logout</a>
     </li>
     <li class="nav-item">
         <a class="nav-link text-dark" href="/Account/Login">Login</a>

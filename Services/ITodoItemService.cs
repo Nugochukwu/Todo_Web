@@ -12,7 +12,8 @@ namespace AspNetCoreTodo.Services
         Task<bool> AddItemAsync(TodoItem newItem, ApplicationUser user);
         
         Task<bool> MarkDoneAsync(Guid id, ApplicationUser user);
-
+       // Task<bool> AddOverDueAsync(Guid id, ApplicationUser user);
         Task<bool> UpdateDueDateAsync(Guid id, DateTimeOffset newDueDate, ApplicationUser user);
+        Task<List<TodoItem>> GetOverdueItemsAsync(ApplicationUser user, DateTimeOffset today);
     }
 }
